@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: white;    
+}    
+
 nav{
     height: 70px;
     background-color: rgb(129, 1, 49);
