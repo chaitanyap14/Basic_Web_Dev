@@ -2,8 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-image: white;
 }
+
+body{
+    background-image: white;    
+}    
 
 nav{
     height: 70px;
