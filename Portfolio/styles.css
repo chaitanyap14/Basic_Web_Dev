@@ -2,10 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-body{
-    background-image: linear-gradient(to bottom right, rgb(100, 233, 207), rgb(251, 70, 204))
+    background-image: linear-gradient(to bottom right, rgb(100, 233, 207), rgb(251, 70, 204);
 }
 
 nav{
@@ -73,7 +70,7 @@ nav{
         display: block;
         cursor: pointer;
     }
-    
+
 }
 
 .nav-active{
