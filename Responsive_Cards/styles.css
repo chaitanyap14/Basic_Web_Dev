@@ -96,4 +96,8 @@ h1 {
         display: block;
         margin-left: 60px;
     }
+
+    .heading {
+        align-items: center;
+    }
 }
