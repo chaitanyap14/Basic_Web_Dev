@@ -95,9 +95,15 @@ h1 {
     .row{
         display: block;
         align-items: center;
+        align-self: center;
     }
 
     .heading {
         align-items: center;
+    }
+
+    .column {
+        align-items: center;
+        align-self: center;
     }
 }
