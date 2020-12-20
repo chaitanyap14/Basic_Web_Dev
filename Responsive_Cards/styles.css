@@ -94,7 +94,7 @@ h1 {
 @media screen and (max-width: 1000px) {
     .row{
         display: block;
-        margin-left: 60px;
+        align-items: center;
     }
 
     .heading {
