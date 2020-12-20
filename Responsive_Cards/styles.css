@@ -22,8 +22,8 @@ body {
 .heading {
     text-transform: uppercase;
     font-weight: bold;
-    margin-left: 605px;
-    margin-bottom: 40px;
+    margin: auto;
+    margin-bottom: 30px;
     background-color: white;
     width: 150px;
     text-align: center;
@@ -94,5 +94,6 @@ h1 {
 @media screen and (max-width: 1000px) {
     .row{
         display: block;
+        margin-left: 60px;
     }
 }
