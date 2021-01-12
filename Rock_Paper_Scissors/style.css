@@ -165,4 +165,8 @@ div.fadeIn {
         display: flex;
         flex-direction: column;
     }
+
+    .options button{
+        margin-bottom: 15px;
+    }
 }
