@@ -30,6 +30,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     height: 50vh;
     justify-content: space-around;
     font-size: 35px;
@@ -66,7 +67,7 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1000px;
+    width: 100vw;
 }
 
 .player-hand {
@@ -156,5 +157,12 @@ div.fadeIn {
 
     100% {
         transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .options{
+        display: flex;
+        flex-direction: column;
     }
 }
