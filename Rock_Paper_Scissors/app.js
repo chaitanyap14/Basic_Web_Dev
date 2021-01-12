@@ -34,9 +34,9 @@ const game = () => {
                 const playerChoice = option.className;
 
                 setTimeout(() => {
-                    compareHands(playerChoice, computerChoice);
                     playerHand.src = `./assets/${playerChoice}.png`;
                     computerHand.src = `./assets/${computerChoice}.png`;
+                    compareHands(playerChoice, computerChoice);
                 }, 2000);
 
                 playerHand.style.animation = "shakePlayer 2s ease";
