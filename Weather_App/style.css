@@ -85,3 +85,9 @@ input.search-bar {
     top: 0;
     position: absolute;
 }
+
+@media screen and (max-width: 768px){
+    .card {
+        width: 50vw;
+    }
+}
