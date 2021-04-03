@@ -1,3 +1,5 @@
+/*Weather app script (final)*/
+
 let weather = {
     apiKey: "73a641ca5b183d117805c2d823668011",
     fetchWeather: function(city){
