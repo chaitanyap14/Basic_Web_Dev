@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgba(244, 145, 227, 0.4);
+    background-color: black;
 }
 
 nav{
@@ -14,7 +14,7 @@ nav{
     align-items: center;
     min-height: 8vh;
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(to bottom, rgb(73, 207, 235), rgb(244, 145, 227));
+    background-color: white;
 }
 
 .logo{
@@ -68,7 +68,7 @@ nav{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-image: linear-gradient(to bottom, rgb(244, 145, 227), rgb(73, 207, 235));
+        background-color: white; 
         display: flex;
         flex-direction: column;
         align-items: center;
