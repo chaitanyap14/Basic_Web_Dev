@@ -39,7 +39,7 @@ main{
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
     z-index: 2;
-    backdrop-filter: blur(2rem);
+    backdrop-filter: blur(0.75rem);
     display: flex;
 }
 
@@ -158,4 +158,13 @@ main{
 
 .card:hover, .pro, .link, .user{
     cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 12px 12px 30px rgba(17, 17, 17, 0.418);
+    transition: 0.5s ease;
+}
+
+.link:hover {
+    text-decoration: underline #658ec6;
 }
